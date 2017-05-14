@@ -18,6 +18,6 @@ C.getChange = function (totalPayable, cashPaid) {
             }
         }
     }
-    return change;
+    return change;                              // return the change we need to get
 };
 module.exports = C;            // export the module with a single method
